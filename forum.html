@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forum Page</title>
+    <link rel="stylesheet" href="forum.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="links">
+        <a href="#myrepo">My Repo</a>
+        <a href="#mywall">My Wall</a>
+        <a href="#forum">Forum</a>
+        <a href="#onlineexam">Online Exam</a>
+      </div>
+      <div class="return">
+        <a href="index.html">Return Home</a>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+      <div
+        class="forum-box"
+        style="background: linear-gradient(135deg, #4a3a80, #2e4b7e)"
+      >
+        <!-- Forum Header -->
+        <div class="forum-header">FORUM</div>
+        <!-- Greeting -->
+        <div class="greeting">Hello XYZ</div>
+        <!-- Query input box -->
+        <textarea
+          class="query-box"
+          placeholder="Write any query or text"
+        ></textarea>
+        <!-- Author and Post Button Section -->
+        <div class="author-section">
+          <input type="text" class="author-input" placeholder="Author name" />
+          <button class="post-btn">Post</button>
+        </div>
+        <!-- Post Display Box (for static display of posted queries) -->
+        <div class="post-display">
+          <div class="post-item">
+            <div class="post-author">Author Name</div>
+            <div class="post-content">
+              Sample query or text posted by the author.
+            </div>
+          </div>
+          <div class="post-item">
+            <div class="post-author">Another Author</div>
+            <div class="post-content">
+              Another sample query or text posted by a different author.
+            </div>
+          </div>
+          <!-- Add more post items as needed for display -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
